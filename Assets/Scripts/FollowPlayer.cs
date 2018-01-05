@@ -13,7 +13,7 @@ public class FollowPlayer : MonoBehaviour {
 
 	void LateUpdate () {
 		Debug.Log ("Updating");
-		GameObject cube = GameObject.Find ("Cube");
+		GameObject cube = GameObject.Find ("Player");
 		target = cube.transform;
 
 		Vector3 wantedPosition;
